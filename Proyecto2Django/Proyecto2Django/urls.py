@@ -20,5 +20,5 @@ from  appSeba import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('appSeba/',include("appSeba.urls"))
+    path('appSeba/',include("appSeba.urls")),
 ]
