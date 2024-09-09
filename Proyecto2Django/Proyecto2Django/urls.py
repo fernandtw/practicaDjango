@@ -21,4 +21,10 @@ from  appSeba import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('appSeba/',include("appSeba.urls")),
+
+from AppFernanda import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('AppFernanda/',include('AppFernanda.urls'))
 ]
