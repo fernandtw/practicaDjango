@@ -16,6 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from  appSeba import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('appSeba/',include("appSeba.urls")),
 
 from AppFernanda import views
 
